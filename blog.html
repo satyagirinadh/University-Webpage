@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width initial-scale=1.0">
+        <title>University</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">      
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="img/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li> <a href="index.html"> Home</a></li>
+                        <li> <a href="about.html"> About</a></li>
+                        <li> <a href="course.html"> Course</a></li>
+                        <li> <a href="blog.html"> Blog</a></li>
+                        <li> <a href="contact.html"> Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our Certification & online Programs for 2025</h1>
+
+        
+
+        </section>
+
+              <!---------------Blog Page content------------>
+              <section class="blog-content">
+
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="img/certificate.jpg">
+                        <h2>Our certificate & Online Programs For 2025</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis accusantium distinctio error tempore. Neque veritatis sunt quae exercitationem reprehenderit maxime velit corrupti corporis nam, doloribus repellendus reiciendis, culpa excepturi magnam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta explicabo dolore ab! Architecto sed amet deleniti pariatur sapiente rem quos delectus. Voluptatem soluta corrupti perspiciatis quo blanditiis nisi totam facilis?</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque vitae magnam, hic laudantium quis aut voluptatem repellat eveniet sit soluta nihil quos, veritatis suscipit error. Tenetur corrupti sed quibusdam ipsam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vitae mollitia sunt, possimus consequatur excepturi eaque ducimus laboriosam deserunt officiis esse ratione autem provident laborum id minus iure numquam praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel accusamus quaerat eum soluta eius illum ea, sunt labore, unde eaque mollitia perspiciatis ipsum quae minima modi? Eum tenetur ipsam provident. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam excepturi adipisci, quidem accusantium omnis earum esse dignissimos! Eos neque, quibusdam nobis, labore similique nemo consequatur necessitatibus laboriosam itaque fugiat libero!</p>
+                        <br>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae blanditiis, hic rem eveniet ut magni aut dicta asperiores accusantium, modi suscipit possimus eaque autem ratione. Facilis consequuntur quo impedit aliquid? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit iusto voluptatum aspernatur ullam provident illum assumenda voluptates autem delectus, aperiam vitae ducimus est soluta, qui eum dolor similique et temporibus!</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga repellat mollitia modi vero voluptates nihil nobis aperiam labore nesciunt magnam dolores velit, consequuntur sapiente nemo accusamus, quas enim odit neque?</p>
+                        <div class="comment-box">
+                            <h3>Leave A comment</h3>
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="email" placeholder="Enter email">
+                                <textarea rows="5" placeholder="Your comment"></textarea>
+                                <button type="submit" class="hero-btnn">Post comment</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="blog-right">
+                        <h3>Post Categories</h3>
+                        <div>
+                            <span>Business Analytics</span>
+                            <span>21</span>
+                        </div>
+                        <div>
+                            
+                            <span>Data Science</span>
+                            <span>27</span>
+                        </div>
+                        <div>
+                            <span>Machine Learning</span>
+                            <span>17</span>
+                        </div>
+                        <div>
+                            <span>Computer Science</span>
+                            <span>45</span>
+                        </div>
+                        <div>
+                            
+                            <span>Civil</span>
+                            <span>20</span>
+                        </div>
+                        <div>
+                            <span>Commerce</span>
+                            <span>25</span>
+                        </div>
+                    </div>
+                
+                    
+
+                </div>
+              </section>
+
+              
+
+
+
+
+      <!---------------Footer------------>
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iure explicabo id laboriosam ipsa tempore<br>quia voluptate architecto quo sit, eligendi incidunt, neque facere provident amet.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made by Satya Girinadh  
+                <a href="https://github.com/satyagirinadh"  target="_blank"> <i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/satya-girinadh-3135b6283/" target="_blank"> <i class="fa fa-linkedin"></i></a>
+            </p>
+             
+        
+        </section>
+
+<!--Java Script For Toggle Menu-->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+
+</html>
